@@ -1,15 +1,24 @@
-body, #blank, #test, #timer, #Q1, #Q2, #Q3, #Q4, #Q5, #Q6, #header, #questions, #main, #option {
+/* body, #blank, #test, #timer, #Q1, #Q2, #Q3, #Q4, #Q5, #Q6, #header, #questions, #main, #option #startDiv {
     border-style: solid;
     border-color: red;
     border-width: 1px; 
-}
+} */
 
 body {
-    background-color: rgb(19, 19, 88);
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+#timerbox {
+    height: 12%;
+    font-size: 1px;
+    text-align: center;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
 }
 
 #timer {
-    text-align: center;
+    font-size: 50px;
 }
 
 #header {
@@ -19,11 +28,12 @@ body {
     line-height: 90px;
     color: white;
     font-size: 55px;
-    background-color: rgb(19, 19, 88);
+    background-color: rgba(19, 19, 88, 0.781);
+    font-family: 'Shadows Into Light', cursive;
 }
 
-.container {
-    height: 100%;
+#questionbox {
+    /* height: 100%; */
 }
 
 #main {
@@ -43,23 +53,44 @@ body {
     text-align: center;
 }
 
+#start {
+    width: 70%;
+    height:80%;
+    background-color: green;
+    border-style: solid;
+    border-color: green;
+    border-width: 1px; 
+}
+
+#done {
+    width: 70%;
+    height:80%;
+    background-color: red;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px; 
+}
+
+#startDiv, #endDiv {
+    align-content: center;
+}
+
+#startRow, #doneRow {
+    height: 12%;
+    align-content: center;
+    padding-left: 8%;
+}
+
 #questions {
-    height: 100%;
-    font-size: 10px;
-    backgroud-color: white;
-    /* background-image:  url(../images/background.jpg); */
+    height: auto;
+    width: 60%;
+    font-size: 15px;
+    background-color: rgb(241, 236, 236);
+    margin-bottom: 1%;  
     background-size: 100%;
     text-align: center;  
 }
 
 #button {
     font-size: 30px;
-}
-
-/* #A, #B, #C, #D, #E, #F, #G, #H, #I, #J, #K, #L {
-    font-size: 10px;
-} */
-
-#sample {
-    font-size: 10px;
 }

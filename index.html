@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="assets/javascript/app.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Rubik:900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Exo+2|Shadows+Into+Light" rel="stylesheet">
 
 
 </head>
@@ -22,79 +23,64 @@
         <h1 id = "blank" class = col-md-3></h1>
     </div>
 
-    <!-- Start, Reset, Done Buttons -->
-        <button id = "start" class = col-md-3>Start!</button>
-        <button id = "done" class = col-md-3>Done!</button>
-       
+    <!-- Start Button -->
+    <div id = "startDiv" class = row>
+            <h1 id = "blank" class = col-md-4></h1>
+            <h1 id = "startRow" class = col-md-4><button id = "start" type="button" class="btn btn-primary btn-lg">Start!</button></h1>
+            <h1 id = "blank" class = col-md-4></h1>
+    </div>
 
     <!-- Timer -->
     <div id = "timerbox" class = row>
             <h1 id = "blank" class = col-md-3></h1>
-            <h1 id = "timer" class = col-md-6>timer</h1>
+            <h1 id = "timer" class = col-md-6></h1>
             <h1 id = "blank" class = col-md-3></h1>
-        </div>
-
-    <!-- Trivia Question Box  -->
-<div class="container">
-    <div id = "questionbox" class = "row">
-        <div id = "blank" class = col-md-1></div>
-
-            <!-- Center column with subrow -->
-            <div id = "main" class = col-md-10> <p>Questions</p>
+    </div>
 
       <div class = container id="questions">
-        <p> Which bird has eyes that are larger than it's brain? </p> <br>
+        <p> <strong> Which bird has eyes that are larger than it's brain? </strong> </p> 
         <input id = "Blue Bird" type="radio" value ="Blue Bird" name="eyes"> Blue Bird <br>
         <input id = "Owl" type="radio" value="Owl" name="eyes"> Owl <br>
         <input id = "Ostrich" type="radio" value="Ostrich" name="eyes"> Ostrich <br>
-        <input id = "Canary" type="radio" value="Canary" name="eyes"> Canary <br>
+        <input id = "Canary" type="radio" value="Canary" name="eyes"> Canary <br> <br> 
 
-        <p>What is the only bird known to fly backwards?</p> <br>
+        <p> <strong> What is the only bird known to fly backwards? </strong> </p> 
         <input id = "Hummingbird" type="radio" value="Hummingbird" name="backwards"> Hummingbird <br>
         <input id = "Swan" type="radio" value="Swan" name="backwards"> Swan <br>
         <input id = "Parakeet" type="radio" value="Parakeet" name="backwards"> Parakeet <br>
-        <input id = "Finch" type="radio" value="Finch" name="backwards"> Finch <br>
+        <input id = "Finch" type="radio" value="Finch" name="backwards"> Finch <br> <br> 
 
-        <p>Which of the 5 senses do dolphins no possess?</p> <br>
+        <p > <strong> Which of the 5 senses do dolphins no possess? </strong> </p> 
         <input id = "Sound" type="radio" value="Sound" name="dolphins"> Sound <br>
         <input id = "Touch" type="radio" value="Touch" name="dolphins"> Touch <br>
         <input id = "Smell" type="radio" value="Smell" name="dolphins"> Smell <br>
-        <input id = "Sight" type="radio" value="Sight" name="dolphins"> Sight <br>
+        <input id = "Sight" type="radio" value="Sight" name="dolphins"> Sight <br> <br> 
 
-        <p>What is a group of whales called?</p> <br>
+        <p> <strong> What is a group of whales called? </strong> </p> 
         <input id = "Lark" type="radio" value="A lark" name="whales"> A lark <br>
         <input id = "Squad" type="radio" value="A squad" name="whales"> A squad <br>
         <input id = "Corpus" type="radio" value="A corpus" name="whales"> A corpus <br>
-        <input id = "Pod" type="radio" value="A pod" name="whales"> A pod <br>
+        <input id = "Pod" type="radio" value="A pod" name="whales"> A pod <br> <br> 
 
-        <p>What is the proper term for a group of parrots?</p> <br>
+        <p> <strong> What is the proper term for a group of parrots? </strong> </p> 
         <input id = "Pandemoniuim" type="radio" value="A pandemonium" name="parrots"> A pandemonium <br>
         <input id = "Flight" type="radio" value="A flight" name="parrots"> A flight <br>
         <input id = "Parliament" type="radio" value="A parliament" name="parrots"> A parliament <br>
-        <input id = "Swarm" type="radio" value="A swarm" name="parrots"> A swarm <br>
+        <input id = "Swarm" type="radio" value="A swarm" name="parrots"> A swarm <br> <br> 
 
-        <p>What is the national animal of Scotland?</p> <br>
+        <p> <strong>What is the national animal of Scotland? </strong> </p> 
         <input id = "Gopher" type="radio" value="The gopher" name="scotland"> The gopher <br>
         <input id = "Cat" type="radio" value="The cat" name="scotland"> The cat <br>
         <input id = "Unicorn" type="radio" value= "The unicorn" name="scotland"> The unicorn <br>
-        <input id = "Bison" type="radio" value="The bison" name="scotland"> The bison <br>
-</div>
-                                
-
-                                
-        <div id = "blank1" class = col-md-1></div>
-
-        <!-- Button Row -->
-        <div id = "buttonbox" class = row>
-                <h1 id = "blank" class = col-md-3></h1>
-                <button id="button" class = col-md-6>Done!</button>
-                <h1 id = "blank" class = col-md-3></h1>
-            </div>
-
-    <!-- close outer row -->
+        <input id = "Bison" type="radio" value="The bison" name="scotland"> The bison <br> <br>
     </div>
-<!-- close container -->
-</div>
+
+    <!-- Done Button -->
+    <div id = "endDiv" class = row>
+            <h1 id = "blank" class = col-md-4></h1>
+            <div id = "doneRow" class = col-md-4><button id = "done" type="button" class="btn btn-primary btn-lg">Done!</button></div>
+            <h1 id = "blank" class = col-md-4></h1>
+    </div>
 
 </body>
 </html>

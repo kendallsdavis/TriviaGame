@@ -7,7 +7,7 @@
 <link rel="stylesheet" src="assets/css/reset.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="assets/javascript/app.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Rubik:900" rel="stylesheet">
 
@@ -17,71 +17,108 @@
 
     <!-- Header -->
     <div id = "top" class = row>
-        <h1 id = "blank1" class = col-md-3></h1>
+        <h1 id = "blank" class = col-md-3></h1>
         <h1 id = "header" class = col-md-6>Totally Trivial Trivia!</h1>
-        <h1 id = "blank2" class = col-md-3></h1>
+        <h1 id = "blank" class = col-md-3></h1>
     </div>
+
+    <!-- Timer -->
+    <div id = "timerbox" class = row>
+            <h1 id = "blank" class = col-md-3></h1>
+            <h1 id = "timer" class = col-md-6>timer</h1>
+            <h1 id = "blank" class = col-md-3></h1>
+        </div>
 
     <!-- Trivia Question Box  -->
 <div class="container">
     <div id = "questions" class = "row">
-        <div id = "blank1" class = col-md-1></div>
+        <div id = "blank" class = col-md-1></div>
 
             <!-- Center column with subrow -->
-            <div id = "main" class = col-md-10> <h1>Questions</h1>
+            <div id = "main" class = col-md-10> <p>Questions</p>
 
-                <!--Subrow  -->
-                <div id = "Q1" class = row>
+                <!--Subrow Question 1 -->
+                <div id = "Qbox1" class = row>
                     <!-- 3 columns within subrow -->
-                    <div id = "test" class = col-md-1></div>
-                    <div id = "test" class = col-md-10>question 1</div>
-                    <div id = "test" class = col-md-1></div>
-                <!-- close subrow -->
+                    <div id = "blank" class = col-md-1></div>
+                    <div id = "Q1" class = col-md-10> Which bird has eyes that are larger than it's brain? <br>
+                        <input id = "option" type="radio"> Answer A <br>
+                        <input id = "option" type="radio"> Answer B <br>
+                        <input id = "option" type="radio"> Ostrich <br>
+                        <input id = "option" type="radio"> Answer D <br>
+                    </div>
+                    <div id = "blank" class = col-md-1></div>
+                <!-- close subrow Question 1-->
                 </div>
 
-                <!--Subrow  -->
-                <div id = "Q2" class = row>
+                <!--Subrow Question 2 -->
+                <div id = "Qbox2" class = row>
                         <!-- 3 columns within subrow -->
-                        <div id = "test" class = col-md-1></div>
-                        <div id = "test" class = col-md-10>question 2</div>
-                        <div id = "test" class = col-md-1></div>
-                    <!-- close subrow -->
+                        <div id = "blank" class = col-md-1></div>
+                        <div id = "Q2" class = col-md-10>What is the only bird known to fly backwards? <br>
+                                <input id = "option" type="radio"> Hummingbird <br>
+                                <input id = "option" type="radio"> Answer B <br>
+                                <input id = "option" type="radio"> Answer C <br>
+                                <input id = "option" type="radio"> Answer D <br>
+                        </div>
+                        <div id = "blank" class = col-md-1></div>
+                    <!-- close subrow Question 2-->
                 </div>
 
-                <!--Subrow  -->
-                <div id = "Q3" class = row>
+                <!--Subrow Question 3 -->
+                <div id = "Qbox3" class = row>
                         <!-- 3 columns within subrow -->
-                        <div id = "test" class = col-md-1></div>
-                        <div id = "test" class = col-md-10>question 3</div>
-                        <div id = "test" class = col-md-1></div>
-                    <!-- close subrow -->
+                        <div id = "blank" class = col-md-1></div>
+                        <div id = "Q3" class = col-md-10>Which of the 5 senses do dolphins no possess? <br> 
+                            <input id = "option" type="radio"> Answer A <br>
+                            <input id = "option" type="radio"> Answer B <br>
+                            <input id = "option" type="radio"> Smell <br>
+                            <input id = "option" type="radio"> Answer D <br>
+                        </div>
+                        <div id = "blank" class = col-md-1></div>
+                    <!-- close subrow Question 3-->
                 </div>
 
-                <!--Subrow  -->
-                <div id = "Q4" class = row>
+                <!--Subrow  Question 4-->
+                <div id = "Qbox4" class = row>
                         <!-- 3 columns within subrow -->
-                        <div id = "test" class = col-md-1></div>
-                        <div id = "test" class = col-md-10>question 4</div>
-                        <div id = "test" class = col-md-1></div>
-                    <!-- close subrow -->
+                        <div id = "blank" class = col-md-1></div>
+                        <div id = "Q4" class = col-md-10>What is a group of whales called? <br> 
+                            <input id = "option" type="radio"> Answer A <br>
+                            <input id = "option" type="radio"> Answer B <br>
+                            <input id = "option" type="radio"> Answer C <br>
+                            <input id = "option" type="radio"> A pod <br>
+                        </div>
+                        <div id = "blank" class = col-md-1></div>
+                    <!-- close subrow Question 4-->
                 </div>
 
-                <!--Subrow  -->
-                <div id = "Q5" class = row>
+                <!--Subrow  Question 5-->
+                <div id = "Qbox5" class = row>
                         <!-- 3 columns within subrow -->
-                        <div id = "test" class = col-md-1></div>
-                        <div id = "test" class = col-md-10>question 5</div>
-                        <div id = "test" class = col-md-1></div>
-                    <!-- close subrow -->
+                        <div id = "blank" class = col-md-1></div>
+                        <div id = "Q5" class = col-md-10>What is the proper term for a group of parrots?<br> 
+                            <input id = "option" type="radio"> A pandemonium <br>
+                            <input id = "option" type="radio"> Answer B <br>
+                            <input id = "option" type="radio"> Answer C <br>
+                            <input id = "option" type="radio"> Answer D <br>
+                        </div>
+                        <div id = "blank" class = col-md-1></div>
+                    <!-- close subrow Question 5-->
                 </div>
 
-                <!--Subrow  -->
-                <div id = "Q6" class = row>
+                <!--Subrow Question 6 -->
+                <div id = "Qbox6" class = row>
                         <!-- 3 columns within subrow -->
-                        <div id = "test" class = col-md-1></div>
-                        <div id = "test" class = col-md-10>question 6</div>
-                        <div id = "test" class = col-md-1></div>
-                    <!-- close subrow -->
+                        <div id = "blank" class = col-md-1></div>
+                        <div id = "Q6" class = col-md-10>What is the national animal of Scotland? <br>
+                            <input id = "option" type="radio"> Answer A <br>
+                            <input id = "option" type="radio"> Answer B <br>
+                            <input id = "option" type="radio"> The unicorn <br>
+                            <input id = "option" type="radio"> Answer D <br>
+                        </div>
+                        <div id = "blank" class = col-md-1></div>
+                    <!-- close subrow Question 6-->
                 </div>
 
             <!-- close column containing subrows -->

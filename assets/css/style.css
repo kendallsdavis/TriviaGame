@@ -1,14 +1,16 @@
-body {
-    background-image:  url(../images/background.jpg);
-    background-size: 100%;
-}
-
-#blank1, #blank2, #test {
+body, #blank, #test, #timer, #Q1, #Q2, #Q3, #Q4, #Q5, #Q6, #header, #questions, #main, #option {
     border-style: solid;
     border-color: red;
     border-width: 1px; 
 }
 
+body {
+    background-color: rgb(19, 19, 88);
+}
+
+#timer {
+    text-align: center;
+}
 
 #header {
     height: 13%;
@@ -17,30 +19,36 @@ body {
     line-height: 90px;
     color: white;
     font-size: 55px;
-    border-style: solid;
-    border-color: red;
-    border-width: 1px;  
     background-color: rgb(19, 19, 88);
 }
 
-#questions {
-    margin-top: 2%;
-    height: 78%;
-    font-size: 55px;
-    border-style: solid;
-    border-color: red;
-    border-width: 1px;  
-    
+.container {
+    height: 100%;
 }
 
 #main {
+    font-size: 60px;
+    color:black;
+    font-weight: bold;
+}
+
+#Q1, #Q2, #Q3, #Q4, #Q5, #Q6 {
+    background-color: rgb(19, 19, 88);
+    text-align: left;
+    font-size: 16px;
+    color: white;
+}
+
+#option {
+    text-align: center;
+}
+
+#questions {
     height: 100%;
     font-size: 55px;
-    border-style: solid;
-    border-color: red;
-    border-width: 1px;
-    background-color: rgb(19, 19, 88);
-    text-align: center;
-    color: white;  
-    
+    background-image:  url(../images/background.jpg);
+    background-size: 100%;
+    text-align: center;  
 }
+
+

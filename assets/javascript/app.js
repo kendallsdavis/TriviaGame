@@ -24,7 +24,6 @@ $(document).ready(function() {
 
 // Define functions for run, stop, decrement, and guessing
         function run() {
-        //   status = "started";
           clearInterval(intervalId);
           intervalId = setInterval(decrement, 1000);
           guessing();

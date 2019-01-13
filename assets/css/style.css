@@ -1,9 +1,3 @@
-/* body, #blank, #test, #timer, #Q1, #Q2, #Q3, #Q4, #Q5, #Q6, #header, #questions, #main, #option #startDiv {
-    border-style: solid;
-    border-color: red;
-    border-width: 1px; 
-} */
-
 body {
     background-image: url(../images/background.jpg);
     background-size: cover;
@@ -17,9 +11,6 @@ body {
     font-family: 'Exo 2', sans-serif;
 }
 
-#timer {
-    font-size: 50px;
-}
 
 #header {
     height: 13%;
@@ -30,27 +21,6 @@ body {
     font-size: 55px;
     background-color: rgba(19, 19, 88, 0.781);
     font-family: 'Shadows Into Light', cursive;
-}
-
-#questionbox {
-    /* height: 100%; */
-}
-
-#main {
-    font-size: 10px;
-    color:black;
-    font-weight: bold;
-}
-
-#Q1, #Q2, #Q3, #Q4, #Q5, #Q6 {
-    background-color: rgb(19, 19, 88);
-    text-align: left;
-    font-size: 16px;
-    color: white;
-}
-
-#option {
-    text-align: center;
 }
 
 #start {
@@ -91,6 +61,3 @@ body {
     text-align: center;  
 }
 
-#button {
-    font-size: 30px;
-}

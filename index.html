@@ -22,6 +22,11 @@
         <h1 id = "blank" class = col-md-3></h1>
     </div>
 
+    <!-- Start, Reset, Done Buttons -->
+        <button id = "start" class = col-md-3>Start!</button>
+        <button id = "done" class = col-md-3>Done!</button>
+       
+
     <!-- Timer -->
     <div id = "timerbox" class = row>
             <h1 id = "blank" class = col-md-3></h1>
@@ -31,113 +36,61 @@
 
     <!-- Trivia Question Box  -->
 <div class="container">
-    <div id = "questions" class = "row">
+    <div id = "questionbox" class = "row">
         <div id = "blank" class = col-md-1></div>
 
             <!-- Center column with subrow -->
             <div id = "main" class = col-md-10> <p>Questions</p>
 
-                <!--Subrow Question 1 -->
-                <div id = "Qbox1" class = row>
-                    <!-- 3 columns within subrow -->
-                    <div id = "blank" class = col-md-1></div>
-                    <div id = "Q1" class = col-md-10> Which bird has eyes that are larger than it's brain? <br>
-                        <input id = "Blue Bird" type="radio" value ="Blue Bird" name="eyes"> Blue Bird <br>
-                        <input id = "Owl" type="radio" value="Owl" name="eyes"> Owl <br>
-                        <input id = "Ostrich" type="radio" value="Ostrich" name="eyes"> Ostrich <br>
-                        <input id = "Canary" type="radio" value="Canary" name="eyes"> Canary <br>
-                    </div>
-                    <div id = "blank" class = col-md-1></div>
-                <!-- close subrow Question 1-->
-                </div>
+      <div class = container id="questions">
+        <p> Which bird has eyes that are larger than it's brain? </p> <br>
+        <input id = "Blue Bird" type="radio" value ="Blue Bird" name="eyes"> Blue Bird <br>
+        <input id = "Owl" type="radio" value="Owl" name="eyes"> Owl <br>
+        <input id = "Ostrich" type="radio" value="Ostrich" name="eyes"> Ostrich <br>
+        <input id = "Canary" type="radio" value="Canary" name="eyes"> Canary <br>
 
+        <p>What is the only bird known to fly backwards?</p> <br>
+        <input id = "Hummingbird" type="radio" value="Hummingbird" name="backwards"> Hummingbird <br>
+        <input id = "Swan" type="radio" value="Swan" name="backwards"> Swan <br>
+        <input id = "Parakeet" type="radio" value="Parakeet" name="backwards"> Parakeet <br>
+        <input id = "Finch" type="radio" value="Finch" name="backwards"> Finch <br>
 
-                <!-- <div>
-                        <input type="radio" id="huey" name="drone" value="huey"
-                               checked>
-                        <label for="huey">Huey</label>
-                      </div>
-                      
-                      <div>
-                        <input type="radio" id="dewey" name="drone" value="dewey">
-                        <label for="dewey">Dewey</label>
-                      </div> -->
+        <p>Which of the 5 senses do dolphins no possess?</p> <br>
+        <input id = "Sound" type="radio" value="Sound" name="dolphins"> Sound <br>
+        <input id = "Touch" type="radio" value="Touch" name="dolphins"> Touch <br>
+        <input id = "Smell" type="radio" value="Smell" name="dolphins"> Smell <br>
+        <input id = "Sight" type="radio" value="Sight" name="dolphins"> Sight <br>
 
+        <p>What is a group of whales called?</p> <br>
+        <input id = "Lark" type="radio" value="A lark" name="whales"> A lark <br>
+        <input id = "Squad" type="radio" value="A squad" name="whales"> A squad <br>
+        <input id = "Corpus" type="radio" value="A corpus" name="whales"> A corpus <br>
+        <input id = "Pod" type="radio" value="A pod" name="whales"> A pod <br>
 
-                <!--Subrow Question 2 -->
-                <div id = "Qbox2" class = row>
-                        <!-- 3 columns within subrow -->
-                        <div id = "blank" class = col-md-1></div>
-                        <div id = "Q2" class = col-md-10>What is the only bird known to fly backwards? <br>
-                                <input id = "Hummingbird" type="radio" value="Hummingbird" name="backwards"> Hummingbird <br>
-                                <input id = "Swan" type="radio" value="Swan" name="backwards"> Swan <br>
-                                <input id = "Parakeet" type="radio" value="Parakeet" name="backwards"> Parakeet <br>
-                                <input id = "Finch" type="radio" value="Finch" name="backwards"> Finch <br>
-                        </div>
-                        <div id = "blank" class = col-md-1></div>
-                    <!-- close subrow Question 2-->
-                </div>
+        <p>What is the proper term for a group of parrots?</p> <br>
+        <input id = "Pandemoniuim" type="radio" value="A pandemonium" name="parrots"> A pandemonium <br>
+        <input id = "Flight" type="radio" value="A flight" name="parrots"> A flight <br>
+        <input id = "Parliament" type="radio" value="A parliament" name="parrots"> A parliament <br>
+        <input id = "Swarm" type="radio" value="A swarm" name="parrots"> A swarm <br>
 
-                <!--Subrow Question 3 -->
-                <div id = "Qbox3" class = row>
-                        <!-- 3 columns within subrow -->
-                        <div id = "blank" class = col-md-1></div>
-                        <div id = "Q3" class = col-md-10>Which of the 5 senses do dolphins no possess? <br> 
-                            <input id = "Sound" type="radio" value="Sound" name="dolphins"> Sound <br>
-                            <input id = "Touch" type="radio" value="Touch" name="dolphins"> Touch <br>
-                            <input id = "Smell" type="radio" value="Smell" name="dolphins"> Smell <br>
-                            <input id = "Sight" type="radio" value="Sight" name="dolphins"> Sight <br>
-                        </div>
-                        <div id = "blank" class = col-md-1></div>
-                    <!-- close subrow Question 3-->
-                </div>
+        <p>What is the national animal of Scotland?</p> <br>
+        <input id = "Gopher" type="radio" value="The gopher" name="scotland"> The gopher <br>
+        <input id = "Cat" type="radio" value="The cat" name="scotland"> The cat <br>
+        <input id = "Unicorn" type="radio" value= "The unicorn" name="scotland"> The unicorn <br>
+        <input id = "Bison" type="radio" value="The bison" name="scotland"> The bison <br>
+</div>
+                                
 
-                <!--Subrow  Question 4-->
-                <div id = "Qbox4" class = row>
-                        <!-- 3 columns within subrow -->
-                        <div id = "blank" class = col-md-1></div>
-                        <div id = "Q4" class = col-md-10>What is a group of whales called? <br> 
-                            <input id = "Lark" type="radio" value="A lark" name="whales"> A lark <br>
-                            <input id = "Squad" type="radio" value="A squad" name="whales"> A squad <br>
-                            <input id = "Corpus" type="radio" value="A corpus" name="whales"> A corpus <br>
-                            <input id = "Pod" type="radio" value="A pod" name="whales"> A pod <br>
-                        </div>
-                        <div id = "blank" class = col-md-1></div>
-                    <!-- close subrow Question 4-->
-                </div>
-
-                <!--Subrow  Question 5-->
-                <div id = "Qbox5" class = row>
-                        <!-- 3 columns within subrow -->
-                        <div id = "blank" class = col-md-1></div>
-                        <div id = "Q5" class = col-md-10>What is the proper term for a group of parrots?<br> 
-                            <input id = "Pandemoniuim" type="radio" value="A pandemonium" name="parrots"> A pandemonium <br>
-                            <input id = "Flight" type="radio" value="A flight" name="parrots"> A flight <br>
-                            <input id = "Parliament" type="radio" value="A parliament" name="parrots"> A parliament <br>
-                            <input id = "Swarm" type="radio" value="A swarm" name="parrots"> A swarm <br>
-                        </div>
-                        <div id = "blank" class = col-md-1></div>
-                    <!-- close subrow Question 5-->
-                </div>
-
-                <!--Subrow Question 6 -->
-                <div id = "Qbox6" class = row>
-                        <!-- 3 columns within subrow -->
-                        <div id = "blank" class = col-md-1></div>
-                        <div id = "Q6" class = col-md-10>What is the national animal of Scotland? <br>
-                            <input id = "Gopher" type="radio" value="The gopher" name="scotland"> The gopher <br>
-                            <input id = "Cat" type="radio" value="The cat" name="scotland"> The cat <br>
-                            <input id = "Unicorn" type="radio" value= "The unicorn" name="scotland"> The unicorn <br>
-                            <input id = "Bison" type="radio" value="The bison" name="scotland"> The bison <br>
-                        </div>
-                        <div id = "blank" class = col-md-1></div>
-                    <!-- close subrow Question 6-->
-                </div>
-
-            <!-- close column containing subrows -->
-            </div>
-            
+                                
         <div id = "blank1" class = col-md-1></div>
+
+        <!-- Button Row -->
+        <div id = "buttonbox" class = row>
+                <h1 id = "blank" class = col-md-3></h1>
+                <button id="button" class = col-md-6>Done!</button>
+                <h1 id = "blank" class = col-md-3></h1>
+            </div>
+
     <!-- close outer row -->
     </div>
 <!-- close container -->
@@ -145,3 +98,7 @@
 
 </body>
 </html>
+
+
+
+
